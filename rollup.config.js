@@ -54,7 +54,7 @@ const baseConfig = {
   input: './core/index.tsx',
   // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
   // https://rollupjs.org/guide/en#external-e-external
-  external: ['react', 'react-dom'],
+  external: ['react', 'react-dom', '@lottiefiles/react-lottie-player'],
 }
 
 const commonJsPlugins =  [
